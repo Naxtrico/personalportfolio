@@ -1,0 +1,23 @@
+{
+  "name": "personalportfolio",
+  "version": "1.0.0",
+  "description": "website of my most importants works as graphic designer and web",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-sass": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naxtrico/personalportfolio.git"
+  },
+  "author": "Natalia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naxtrico/personalportfolio/issues"
+  },
+  "homepage": "https://github.com/Naxtrico/personalportfolio#readme"
+}

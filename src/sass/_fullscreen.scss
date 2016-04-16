@@ -1,0 +1,40 @@
+.fullscreen{
+	background:url(../../img/fondothisisme.jpg) no-repeat center center fixed;
+	width: 100%;
+	padding-bottom: 100%;
+	background-size: cover;
+}
+@media screen and (min-width: 768px){
+	.fullscreen{
+		background:url(../../img/tablethd.jpg)no-repeat center center fixed;
+		width: 100%;
+		min-height: 100%;
+		height: auto;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-size: cover;
+	}}
+
+@media screen and (min-width: 1024px){
+	.fullscreen{
+		background:url(../../img/fondofullhd.jpg)no-repeat center center fixed;
+		width: 100%;
+		min-height: 100%;
+		height: auto;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-size: cover;
+	}}
+
+
+
+
+
+
+
+
+
+
+
