@@ -1,4 +1,19 @@
 .infotext{
+	width: 210px;
+	height: 100%;
+	padding-top: 50px;
+	padding-left: 1px;
+	position: absolute;
+	z-index: 1;
+}
+p{
+	padding-left:10px;
+	width: 210px;
+	color: #fff;
+
+}
+@media screen and (min-width: 1024px){
+	.infotext{
 	width: 657px;
 	height: 100%;
 	padding-top: 370px;
@@ -9,4 +24,4 @@ p{
 	width: 402px;
 	color: #fff;
 
-}
+}}

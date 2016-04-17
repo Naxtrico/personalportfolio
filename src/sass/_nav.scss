@@ -35,7 +35,7 @@ header{
 	margin-top: -9px;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 400;
-	z-index:4;
+	z-index:9;
 	position: static;
 
 }
@@ -43,11 +43,13 @@ header{
 li{
 	list-style: none;
 	margin-top:20px;
+	z-index: 9;
 	
 }
 a{
 	color: #fff;
 	text-decoration: none;
+	z-index: 9;
 }
 
 @media screen and (min-width: 1024px){
