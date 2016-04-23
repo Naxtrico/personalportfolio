@@ -92,7 +92,6 @@ header {
   float: right;
   padding-right: 45px;
   padding-top: 50px;
-  background-color: #1C2731;
   padding-left: 45px;
   margin-bottom: 2px; }
 
@@ -114,7 +113,8 @@ header {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
   z-index: 9;
-  position: static; }
+  position: absolute;
+  right: 0; }
 
 li {
   list-style: none;
@@ -125,6 +125,14 @@ a {
   color: #fff;
   text-decoration: none;
   z-index: 9; }
+
+ul:before {
+  width: 50px;
+  height: 50px;
+  background-color: #000; }
+
+.menu {
+  display: none; }
 
 @media screen and (min-width: 1024px) {
   .menu_bar {
@@ -148,7 +156,9 @@ a {
     list-style: none;
     display: inline-block;
     padding: 14px;
-    padding-top: 34px; } }
+    padding-top: 34px; }
+  .menu {
+    display: block; } }
 
 @media screen and (min-width: 768px) {
   .menu_bar {
@@ -176,16 +186,20 @@ a {
 
 h1 {
   font-family: 'PT Serif', serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 2.3rem;
   color: #3DC4CB;
-  margin: 0; }
+  margin: 0;
+  padding-left: 30px;
+  padding-top: 30px; }
 
 p {
   font-family: 'Ubuntu', serif;
-  font-size: 0.6rem;
-  line-height: 13px;
-  font-weight: 400px; }
+  font-size: 1rem;
+  line-height: 22px;
+  font-weight: 300;
+  padding-left: 30px;
+  text-shadow: 3px 3px 8px #000; }
 
 @media screen and (min-width: 1024px) {
   h1 {
@@ -198,12 +212,20 @@ p {
     font-family: 'Ubuntu', serif;
     font-size: 0.9rem;
     line-height: 23px;
-    font-weight: 400px; } }
+    font-weight: 400px;
+    padding-left: 80px;
+    text-shadow: none; } }
 
 .icon-scroll {
   width: 100%;
   height: 100%;
-  position: fixed; }
+  position: absolute; }
 
 .scrollicon {
-  float: center; }
+  width: 40px;
+  height: 88px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 77%;
+  margin: 0 auto; }
