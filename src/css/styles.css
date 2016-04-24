@@ -3,7 +3,9 @@
   width: 100%;
   height: 480px;
   padding-bottom: 100%;
-  background-size: cover; }
+  background-size: cover;
+  position: fixed;
+  z-index: 1; }
 
 @media screen and (min-width: 768px) {
   .fullscreen {
@@ -11,10 +13,11 @@
     width: 100%;
     min-height: 100%;
     height: auto;
-    position: fixed;
     top: 0;
     left: 0;
-    background-size: cover; } }
+    background-size: cover;
+    position: fixed;
+    z-index: 1; } }
 
 @media screen and (min-width: 1024px) {
   .fullscreen {
@@ -22,44 +25,75 @@
     width: 100%;
     min-height: 100%;
     height: auto;
-    position: fixed;
     top: 0;
     left: 0;
-    background-size: cover; } }
+    background-size: cover;
+    position: fixed;
+    z-index: 1; } }
 
 .fullscreenam {
-  background: url(../../img/aboutmehdm.jpg) no-repeat center center fixed;
+  background: url(../../img/aboutmehdm.jpg) no-repeat center center;
   width: 100%;
   height: 480px;
-  padding-bottom: 100%;
-  background-size: cover; }
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  background-attachment: scroll; }
 
 @media screen and (min-width: 768px) {
   .fullscreenam {
-    background: url(../../img/aboutmehdt.jpg) no-repeat center center fixed;
+    background: url(../../img/aboutmehdt.jpg) no-repeat center center;
     width: 100%;
-    min-height: 100%;
-    height: auto;
-    position: fixed;
+    height: 100vh;
     top: 0;
     left: 0;
-    background-size: cover; } }
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    background-attachment: scroll; } }
 
 @media screen and (min-width: 1024px) {
   .fullscreenam {
     background: url(../../img/aboutmehd.jpg) no-repeat center center fixed;
     width: 100%;
-    min-height: 100%;
-    height: auto;
-    position: fixed;
+    height: 100vh;
     top: 0;
     left: 0;
-    background-size: cover; } }
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    background-attachment: scroll; } }
+
+.fullscreen_work {
+  background-color: #1C2731;
+  height: 480px;
+  padding-bottom: 100%;
+  position: absolute;
+  z-index: 1; }
+
+@media screen and (min-width: 768px) {
+  .fullscreen_work {
+    background-color: #1C2731;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1; } }
+
+@media screen and (min-width: 1024px) {
+  .fullscreen_work {
+    background-color: #1C2731;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1; } }
 
 .infotext {
   width: 210px;
   height: 100%;
-  padding-top: 50px;
+  padding-top: 166px;
   padding-left: 1px;
   position: absolute;
   z-index: 1; }
@@ -86,7 +120,8 @@ header {
 .menu_bar {
   width: 100%;
   height: 83px;
-  position: static; }
+  position: absolute;
+  z-index: 9; }
 
 .btn_menu {
   float: right;
@@ -138,7 +173,7 @@ ul:before {
   .menu_bar {
     width: 80px;
     height: 106px;
-    position: static;
+    position: absolute;
     float: left; }
   .btn_menu {
     display: none; }
@@ -164,7 +199,7 @@ ul:before {
   .menu_bar {
     width: 80px;
     height: 106px;
-    position: static;
+    position: absolute;
     float: left; }
   .btn_menu {
     display: none; }
@@ -192,6 +227,24 @@ h1 {
   margin: 0;
   padding-left: 30px;
   padding-top: 30px; }
+
+h2 {
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #3DC4CB;
+  margin: 0; }
+
+h3 {
+  font-family: 'Ubuntu', serif;
+  font-size: 1.5rem;
+  color: #fff; }
+
+h4 {
+  font-family: 'Ubuntu', serif;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 400; }
 
 p {
   font-family: 'Ubuntu', serif;
@@ -227,5 +280,45 @@ p {
   position: absolute;
   right: 0;
   left: 0;
-  top: 77%;
+  top: 84%;
   margin: 0 auto; }
+
+.content {
+  width: 100%;
+  height: 100%;
+  top: 308px;
+  margin: 0 auto;
+  background-color: #1C2731;
+  position: static;
+  padding-top: 40px; }
+
+.titleabout {
+  color: #3DC4CB;
+  text-align: center; }
+
+hr {
+  width: 50%;
+  align: center;
+  background-color: #3DC4CB;
+  color: #3DC4CB; }
+
+@media screen and (min-width: 1024px) {
+  .icon-scroll {
+    width: 100%;
+    height: 100%;
+    position: absolute; }
+  .scrollicon {
+    width: 40px;
+    height: 88px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 89%;
+    margin: 0 auto; }
+  .content {
+    width: 100%;
+    height: 100%;
+    top: 308px;
+    margin: 0 auto;
+    background-color: #1C2731;
+    position: fixed; } }

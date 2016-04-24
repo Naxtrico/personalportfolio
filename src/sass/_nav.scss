@@ -5,7 +5,8 @@ header{
 .menu_bar{
 	width:100%;
 	height: 83px;
-	position:static;
+	position:absolute;
+	z-index: 9;
 
 }
 
@@ -66,7 +67,7 @@ a{
 	.menu_bar{
 		width:80px;
 		height:106px;
-		position:static;
+		position:absolute;
 		float: left;
 	}
 	.btn_menu{
@@ -103,7 +104,7 @@ a{
 	.menu_bar{
 		width:80px;
 		height:106px;
-		position:static;
+		position:absolute;
 		float: left;
 	}
 	.btn_menu{
