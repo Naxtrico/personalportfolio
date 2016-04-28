@@ -1,8 +1,11 @@
 .fullscreen {
   background: url(../../img/fondothisisme.jpg) no-repeat center center fixed;
   width: 100%;
+  height: 480px;
   padding-bottom: 100%;
-  background-size: cover; }
+  background-size: cover;
+  position: fixed;
+  z-index: 1; }
 
 @media screen and (min-width: 768px) {
   .fullscreen {
@@ -10,10 +13,11 @@
     width: 100%;
     min-height: 100%;
     height: auto;
-    position: fixed;
     top: 0;
     left: 0;
-    background-size: cover; } }
+    background-size: cover;
+    position: fixed;
+    z-index: 1; } }
 
 @media screen and (min-width: 1024px) {
   .fullscreen {
@@ -21,13 +25,94 @@
     width: 100%;
     min-height: 100%;
     height: auto;
-    position: fixed;
     top: 0;
     left: 0;
-    background-size: cover; } }
+    background-size: cover;
+    position: fixed;
+    z-index: 1; } }
 
-.introtextcontent {
-  position: static; }
+.fullscreenam {
+  background: url(../../img/aboutmehdm.jpg) no-repeat center center;
+  width: 100%;
+  height: 480px;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  background-attachment: scroll; }
+
+@media screen and (min-width: 768px) {
+  .fullscreenam {
+    background: url(../../img/aboutmehdt.jpg) no-repeat center center;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    background-attachment: scroll; } }
+
+@media screen and (min-width: 1024px) {
+  .fullscreenam {
+    background: url(../../img/aboutmehd.jpg) no-repeat center center fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    background-attachment: scroll; } }
+
+.fullscreen_work {
+  background-color: #1C2731;
+  height: 480px;
+  padding-bottom: 100%;
+  position: absolute;
+  z-index: 1; }
+
+@media screen and (min-width: 768px) {
+  .fullscreen_work {
+    background-color: #1C2731;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1; } }
+
+@media screen and (min-width: 1024px) {
+  .fullscreen_work {
+    background-color: #1C2731;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1; } }
+
+.infotext {
+  width: 210px;
+  height: 100%;
+  padding-top: 166px;
+  padding-left: 1px;
+  position: absolute;
+  z-index: 1; }
+
+p {
+  padding-left: 10px;
+  width: 210px;
+  color: #fff; }
+
+@media screen and (min-width: 1024px) {
+  .infotext {
+    width: 657px;
+    height: 100%;
+    padding-top: 370px;
+    padding-left: 100px; }
+  p {
+    padding-left: 44px;
+    width: 402px;
+    color: #fff; } }
 
 header {
   width: 100%; }
@@ -35,12 +120,15 @@ header {
 .menu_bar {
   width: 100%;
   height: 83px;
-  position: static; }
+  position: absolute;
+  z-index: 9; }
 
 .btn_menu {
   float: right;
   padding-right: 45px;
-  padding-top: 50px; }
+  padding-top: 50px;
+  padding-left: 45px;
+  margin-bottom: 2px; }
 
 .logo {
   float: left;
@@ -50,20 +138,187 @@ header {
 
 .menucontent {
   width: 125px;
-  height: 529px;
+  height: 480px;
   background-color: #1C2731;
   float: right;
   text-align: right;
   padding-right: 44px;
-  line-height: 50px;
+  line-height: 36px;
+  margin-top: -9px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
-  z-index: 4;
-  position: static; }
+  z-index: 9;
+  position: absolute;
+  right: 0; }
 
 li {
-  list-style: none; }
+  list-style: none;
+  margin-top: 20px;
+  z-index: 9; }
 
 a {
   color: #fff;
-  text-decoration: none; }
+  text-decoration: none;
+  z-index: 9; }
+
+ul:before {
+  width: 50px;
+  height: 50px;
+  background-color: #000; }
+
+.menu {
+  display: none; }
+
+@media screen and (min-width: 1024px) {
+  .menu_bar {
+    width: 80px;
+    height: 106px;
+    position: absolute;
+    float: left; }
+  .btn_menu {
+    display: none; }
+  .logo {
+    padding-left: 50px;
+    padding-top: 30px;
+    width: 46px; }
+  .menucontent {
+    width: 374px;
+    height: 100%;
+    background: none;
+    float: right;
+    font-size: 0.9rem; }
+  li {
+    list-style: none;
+    display: inline-block;
+    padding: 14px;
+    padding-top: 34px; }
+  .menu {
+    display: block; } }
+
+@media screen and (min-width: 768px) {
+  .menu_bar {
+    width: 80px;
+    height: 106px;
+    position: absolute;
+    float: left; }
+  .btn_menu {
+    display: none; }
+  .logo {
+    padding-left: 50px;
+    padding-top: 30px;
+    width: 46px; }
+  .menucontent {
+    width: 374px;
+    height: 100%;
+    background: none;
+    float: right;
+    font-size: 0.9rem; }
+  li {
+    list-style: none;
+    display: inline-block;
+    padding: 14px;
+    padding-top: 34px; } }
+
+h1 {
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 2.3rem;
+  color: #3DC4CB;
+  margin: 0;
+  padding-left: 30px;
+  padding-top: 30px; }
+
+h2 {
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #3DC4CB;
+  margin: 0; }
+
+h3 {
+  font-family: 'Ubuntu', serif;
+  font-size: 1.5rem;
+  color: #fff; }
+
+h4 {
+  font-family: 'Ubuntu', serif;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 400; }
+
+p {
+  font-family: 'Ubuntu', serif;
+  font-size: 1rem;
+  line-height: 22px;
+  font-weight: 300;
+  padding-left: 30px;
+  text-shadow: 3px 3px 8px #000; }
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: #3DC4CB;
+    margin: 0; }
+  p {
+    font-family: 'Ubuntu', serif;
+    font-size: 0.9rem;
+    line-height: 23px;
+    font-weight: 400px;
+    padding-left: 80px;
+    text-shadow: none; } }
+
+.icon-scroll {
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+
+.scrollicon {
+  width: 40px;
+  height: 88px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 84%;
+  margin: 0 auto; }
+
+.content {
+  width: 100%;
+  /*height:100%;*/
+  top: 308px;
+  margin: 0 auto;
+  background-color: #1C2731;
+  position: fixed;
+  padding-top: 40px; }
+
+.titleabout {
+  color: #3DC4CB;
+  text-align: center; }
+
+hr {
+  width: 50%;
+  align: center;
+  background-color: #3DC4CB;
+  color: #3DC4CB; }
+
+@media screen and (min-width: 1024px) {
+  .icon-scroll {
+    width: 100%;
+    height: 100%;
+    position: absolute; }
+  .scrollicon {
+    width: 40px;
+    height: 88px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 89%;
+    margin: 0 auto; }
+  .content {
+    width: 100%;
+    height: 100%;
+    top: 308px;
+    margin: 0 auto;
+    background-color: #1C2731;
+    position: fixed; } }
