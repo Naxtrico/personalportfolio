@@ -1,0 +1,371 @@
+@import "_variables.scss";
+.worktittle {
+	width:100%;
+	height:100%;
+	text-align:center;
+	margin:0 auto;
+	padding-top: 127px;
+	color: $blue;
+
+}
+.contentimage{
+	background: url(../../img/cardwork1.jpg) center center no-repeat; 
+	background-size: cover; 
+	height: 100vh; 
+}
+.colorone {
+	padding: 0.1em 1% 0;
+	clear:both;
+	float: left;
+	width:100%;
+	margin-bottom: 2px;
+
+}
+
+.colornumber {
+	background-color: #1C2731;
+	height: 106px;
+	width: 86%;
+	font-size:2em;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+	float: none;
+	position: absolute;
+	color: white;
+}
+.colorpreview {
+	float: left;
+	width: 150px;
+	margin-right:1px;
+	list-style-type: none;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1.2em;
+	margin-bottom: 1em;
+	margin: 0.5em;
+	height: 13em;
+	position:relative;
+	
+	top:0%;
+	left:20%;
+	right: 0%;
+}
+.colordetails {
+	padding: 1px;
+	margin-bottom: 0.9em;
+	margin-left: -3.6em;
+	position:absolute;
+	bottom:7px;
+	width:233px;
+	color: black;
+	text-align:center;
+}
+.colourp{
+	color: black;
+	text-shadow: none;
+}
+
+
+.nameproject{
+	font-family: 'PT Serif', serif;
+	font-weight: 400;
+	font-size: 1rem;
+	color: $blue;
+	position: absolute;
+	text-shadow: 3px 3px 8px #000;
+	bottom: 98px;
+    left: 35%;
+    margin: 0 auto;
+
+}
+.contentone{
+	width:100%;
+	height: 193px;
+	background-color: #fff;
+	padding-top:50px;
+	padding-bottom:50px;
+	position: static;
+}
+.contenttwo{
+	width:100%;
+	height: 193px;
+	background: url(../../img/contact.jpg) center center no-repeat; 
+	background-size: cover; 
+	padding-top:50px;
+	padding-bottom:50px;
+	position: static;
+}
+.contentthree{
+	width:100%;
+	height: 862px;
+	background-color: #fff;
+	padding-top:50px;
+	padding-bottom:50px;
+	position: static;
+	
+}
+.logoconcept{
+	position: absolute;
+    top: 60%;
+	left: 11%;
+	width: 77%;
+}
+.list{
+	padding-left: 0; 
+	list-style: none;
+	font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    color: #fff;
+    margin: 18px;
+    padding-top: 43px;
+    }
+
+.logowork{
+	position: absolute;
+    top: 50%;
+	left:50%;
+	margin-top: -251px;
+	margin-left: -92px;
+    width: 53%;
+}
+
+
+.card {
+	width:220px;
+	height:72px;
+	border: 1px solid $blue;
+	top:0;
+	left:50%;
+	margin:30px auto;
+	padding-top:20px;
+
+}
+div.card a{
+	position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        text-decoration: none; /* No underlines on the link */
+        z-index: 9; /* Places the link above everything else in the div */
+        background-color: #FFF; /* Fix to make div clickable in IE */
+        opacity: 0; /* Fix to make div clickable in IE */
+        filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+}
+.one{
+	background: url(../../img/work1hd.jpg) center center no-repeat;
+	background-size: cover;
+}
+.two{
+	background: url(../../img/work2hd.jpg) center center no-repeat;
+	background-size: cover;
+}
+.three{
+	background: url(../../img/work3hd.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+
+@media (min-width: 768px) {
+	.contentthree{
+	width:100%;
+	height: 262px;
+	background-color: #fff;
+	padding-top:50px;
+	padding-bottom:50px;
+	position: static;
+	
+}
+	.colorone {
+	padding: 0.1em 1% 0;
+	clear:both;
+	float: left;
+	width:100%;
+	margin-bottom: 2px;
+
+}
+
+.colornumber {
+	background-color: #1C2731;
+	height: 120px;
+	width: 100%;
+	font-size:2em;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+	float: none;
+	position: absolute;
+	color: white;
+}
+.colorpreview {
+	float: left;
+	width: 150px;
+	margin-right:1px;
+	list-style-type: none;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1.2em;
+	margin-bottom: 1em;
+	margin: 0.5em;
+	height: 13em;
+	position:relative;
+	overflow: hidden; 
+	top:0%;
+	left:20%;
+	right: 0%;
+}
+.colordetails {
+	padding: 1px;
+	margin-bottom:-1.1em;
+	margin-left: -5.1em;
+	position:absolute;
+	bottom:0;
+	width:233px;
+	color: black;
+	text-align:center;
+}
+	
+		.card{
+	width:595px;
+	height:156px;
+	margin:30px auto;
+	padding-top:20px;
+	}
+	.nameproject{
+
+    left: 42%;
+ }
+ .logoconcept{
+
+	position: absolute;
+    top: 64%;
+	left: 34%;
+	width: 30%;
+}
+.list{
+	 margin: -8px;
+    padding-top: 70px;
+    padding-left: 105px;
+}
+
+.logowork{
+	top: 55%;
+	left: 53%;
+	width: 17%;
+}}
+@media (min-width: 1024px) {
+	.contentthree{
+	width:100%;
+	height: 262px;
+	background-color: #fff;
+	padding-top:50px;
+	padding-bottom:50px;
+	position: static;
+	
+}
+	.colorone {
+	padding: 0.1em 1% 0;
+	clear:both;
+	float: left;
+	width:100%;
+	margin-bottom: 2px;
+
+}
+
+.colornumber {
+	background-color: #1C2731;
+	height: 120px;
+	width: 100%;
+	font-size:2em;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+	float: none;
+	position: absolute;
+	color: white;
+}
+.colorpreview {
+	float: left;
+	width: 150px;
+	margin-right:1px;
+	list-style-type: none;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1.2em;
+	margin-bottom: 1em;
+	margin: 0.5em;
+	height: 13em;
+	position:relative;
+	overflow: hidden; 
+	top:0%;
+	left:20%;
+	right: 0%;
+}
+.colordetails {
+	padding: 1px;
+	margin-bottom:-1.1em;
+	margin-left: -5.1em;
+	position:absolute;
+	bottom:0;
+	width:233px;
+	color: black;
+	text-align:center;
+}
+	
+	.contentone{
+	width:100%;
+	height: 327px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+
+.logoconcept{
+	position: absolute;
+    top: 64%;
+	left: 34%;
+	width: 30%;
+}
+.list{
+	margin: 18px;
+    padding-top: 86px;
+    padding-left: 148px;
+    }
+.logowork{
+	top: 52%;
+	left: 51%;
+	width: 13%;
+}
+	.one:hover{
+
+	background-color: $marine;
+	opacity: 0.5;
+
+	
+}
+.two:hover{
+
+	background-color: $marine;
+	opacity: 0.5;
+
+	
+}
+.three:hover{
+
+	background-color: $marine;
+	opacity: 0.5;
+
+	
+}
+	.card{
+	width:857px;
+	height:215px;
+	margin:30px auto;
+	padding-top:20px;
+	}
+
+.nameproject{
+
+    left: 45%;
+ 
+
+}}

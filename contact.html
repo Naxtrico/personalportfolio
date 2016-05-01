@@ -11,10 +11,10 @@
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="src/css/normalize.css">
 	<link rel="stylesheet" href="src/css/styles.css">
-	<script src="src/js/svg.js"></script>
+	
 </head>
 <body>
-	 <header class="about">
+	      <header class="contact">
         <div class="web-logo">
             <a href="index.html"><img src="img/logo.svg" class="logo"></a>
         </div>
@@ -30,37 +30,32 @@
 	                <li><a href="contact.html">Contact</a></li>
 	            </ul>
 	        </nav>
+         </div>
+                 <section class="contactinfo">
+       	<h1>Contact</h1>
+       	<p class="contacttext">Do you want to hire me? or just to ask me something. Feel free to get in touch</p>
+       	
+       	<form action="/" method="post">
+          
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                Nombre<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off"/>
+              <label>
+                Email<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off"/>
+                <label for="msg">Mensaje:</label>
+        <textarea id="msg" name="user_message"></textarea>
+            </div>
+
         </div>
-        <div class="infotext">
-          <h1>About</h1>
-          <p>I’m from Lanzarote, Canary Island but I’m currently based in Barcelona to study a Master in Web Design.</p>
-        </div>
-         <div class="icon-scroll">
-            <a href="#" class="scrollicon"><img src="img/scroll.svg"></a>
-        </div>
-      
-    </header>
+        <button>Send</button>
+  </section>
+</header>
+ 
+	</body>
 
-<article>
-        <section class="content">
-            <div class="wrapper">
-            <hr>
-            <h4 class="titleabout">Natalia Camacho</h4>
-			<hr>
-			 <img src="img/avatar.png" class="avatar"></img>
-			</div>
-			 
-            <div class="wrapper">
-            	<h5>Personal data</h4>
-             <img src="img/location.svg" class="icon-description"></img>
-             <p>Arrecife, Lanzarote</p></div>
-
-
-
-        </section>
-    </article>
-
-
-</body>
-
-</html>
+	</html>

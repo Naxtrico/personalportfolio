@@ -6,7 +6,7 @@ h1{
 	font-size: 2.3rem;
 	color: $blue;
 	margin:0;
-	padding-left: 30px;
+	padding-left: 14px;
 	padding-top: 30px;
 }
 h2{
@@ -28,15 +28,49 @@ h4{
 	color: #fff;
 	font-weight: 400;
 }
+.workh4{
+	font-family: 'Ubuntu', serif;
+	font-size: 1.2rem;
+	color: #fff;
+	font-weight: 400;
+	
+}
+h5{
+	font-family: 'PT Serif', serif;
+	font-size: 0.8rem;
+	color: $blue;
+	font-weight: 400;
+	text-align: center;
+}
+
 p{
 	font-family: 'Ubuntu', serif;
 	font-size: 1rem;
 	line-height: 22px;
 	font-weight: 300;
-	padding-left: 30px;
+	padding-left: 16px;
 	text-shadow: 3px 3px 8px #000;
 
 }
+@media screen and (min-width: 768px){
+	h1{
+	font-family: 'PT Serif', serif;
+	font-weight: 700;
+	font-size: 4rem;
+	color: $blue;
+	margin:0;
+	padding-left:50px;
+}
+
+p{
+	font-family: 'Ubuntu', serif;
+	font-size: 0.9rem;
+	line-height: 26px;
+	font-weight:400px;
+	padding-left: 98px;
+	text-shadow: none;
+	width: 63%;
+}}
 @media screen and (min-width: 1024px){
 	h1{
 	font-family: 'PT Serif', serif;
