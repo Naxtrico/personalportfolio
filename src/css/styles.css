@@ -111,7 +111,7 @@ header, article {
   color: #fff; }
 
 .services {
-  background: url(../../img/servicesmv.jpg) center center no-repeat;
+  background: url(../../img/serviceshd.jpg) center center no-repeat;
   background-size: cover;
   height: 100vh;
   color: #fff; }
@@ -134,9 +134,6 @@ header, article {
     background-size: cover; }
   .about {
     background: url(../../img/aboutmehdt.png) center center no-repeat;
-    background-size: cover; }
-  .services {
-    background: url(../../img/servicestb.jgp) center center no-repeat;
     background-size: cover; } }
 
 @media (min-width: 1024px) {
@@ -146,10 +143,6 @@ header, article {
     overflow: hidden; }
   .about {
     background: url(../../img/aboutmehd.jpg) center center no-repeat;
-    background-size: cover;
-    overflow: hidden; }
-  .services {
-    background: url(../../img/serviceshd.jpg) center center no-repeat;
     background-size: cover;
     overflow: hidden; } }
 
@@ -259,6 +252,154 @@ nav a {
     padding-left: 50px;
     padding-top: 30px;
     width: 46px; } }
+
+html {
+  overflow-x: hidden; }
+
+.especialized {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  padding-top: 50px; }
+
+.methodology {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #3DC4CB; }
+
+.methodologyone {
+  text-align: center;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 100%; }
+
+.iconcontent {
+  float: left;
+  width: 71%;
+  margin: 40px;
+  box-sizing: border-box; }
+
+.iconsize {
+  width: 37%; }
+
+.iconsizevalue {
+  width: 37%; }
+
+.iconsizecon {
+  width: 37%; }
+
+.icontext {
+  width: 195px;
+  padding: 0;
+  margin: 0 auto;
+  color: black;
+  font-weight: lighter;
+  text-shadow: none;
+  font-size: 14px; }
+
+.number {
+  text-align: center;
+  color: #1C2731;
+  font-size: 15px;
+  font-weight: bold; }
+
+.tittlemetho {
+  text-align: center;
+  font-weight: 100;
+  color: #1C2731;
+  padding-bottom: -7px;
+  padding-top: 42px; }
+
+.line {
+  width: 15%;
+  border: 1px solid #3DC4CB;
+  float: left; }
+
+.tittleservices {
+  text-align: center;
+  font-weight: 100;
+  padding-bottom: 30px; }
+
+.uxright {
+  text-align: right; }
+
+.pright {
+  text-align: right;
+  padding-right: 40px;
+  text-shadow: none; }
+
+.pleft {
+  padding-left: 40px;
+  text-shadow: none; }
+
+.uxtwo {
+  float: right; }
+
+.webthree {
+  float: left; }
+
+.branding {
+  float: left;
+  padding-bottom: 50px; }
+
+.ux {
+  float: right;
+  padding-bottom: 50px; }
+
+.web {
+  float: left;
+  padding-bottom: 50px; }
+
+@media (min-width: 768px) {
+  .iconsizecon {
+    width: 31%; }
+  .icontext {
+    width: 165px; }
+  .iconcontent {
+    width: 22%; }
+  .iconsizevalue {
+    width: 29%; }
+  .pright {
+    padding-right: 40px; }
+  .pleft {
+    padding-left: 120px; } }
+
+@media (min-width: 1024px) {
+  .iconcontent {
+    width: 25%; }
+  .iconsize {
+    width: 20%; }
+  .iconsizevalue {
+    width: 16%; }
+  .iconsizecon {
+    width: 17%; }
+  .icontext {
+    width: 262px; }
+  .number {
+    font-size: 15px;
+    font-weight: bold; }
+  .tittlemetho {
+    padding-bottom: 50px;
+    padding-top: 42px; }
+  .line {
+    width: 25%; }
+  .pleft {
+    padding-left: 189px;
+    text-shadow: none;
+    width: 557px; }
+  .pright {
+    text-align: right;
+    padding-right: 213px;
+    text-shadow: none;
+    width: 557px; }
+  .ux {
+    float: right;
+    padding-bottom: 50px; }
+  .web {
+    float: left;
+    padding-bottom: 50px; } }
 
 h1 {
   font-family: 'PT Serif', serif;
