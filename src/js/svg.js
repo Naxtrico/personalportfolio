@@ -1,1 +1,0 @@
-$('.btn_menu').btnmenu();

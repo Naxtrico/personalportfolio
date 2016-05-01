@@ -1,113 +1,89 @@
 @import "_variables.scss";
-.fullscreen{
-	background:url(../../img/fondothisisme.jpg) no-repeat center center fixed;
-	width: 100%;
-	height: 480px;
-	padding-bottom: 100%;
-	background-size: cover;
-	position: fixed;
-	z-index: 1;
+body {
+height: 100%;
+font-size: 100%;
+background-color: $marine;
 }
-@media screen and (min-width: 768px){
-	.fullscreen{
-		background:url(../../img/tablethd.jpg)no-repeat center center fixed;
-		width: 100%;
-		min-height: 100%;
-		height: auto;
-		top: 0;
-		left: 0;
-		
-		background-size: cover;
-		position: fixed;
-		z-index: 1;
-	}}
-
-@media screen and (min-width: 1024px){
-	.fullscreen{
-		background:url(../../img/fondofullhd.jpg)no-repeat center center fixed;
-		width: 100%;
-		min-height: 100%;
-		height: auto;
-		top: 0;
-		left: 0;
-		background-size: cover;
-		position: fixed;
-		z-index: 1;
-	}}
-
-	.fullscreenam{
-	background:url(../../img/aboutmehdm.jpg) no-repeat center center;
-	width: 100%;
-	height: 480px;
-	background-size: cover;
-	position:absolute;
-	z-index: 1;
-	background-attachment: scroll;
+header, article {
+	position: relative; 
+	width:100%;
+	height:100%;
 	
 }
-@media screen and (min-width: 768px){
-	.fullscreenam{
-		background:url(../../img/aboutmehdt.jpg)no-repeat center center;
-		width: 100%;
-		height: 100vh;
-		top: 0;
-		left: 0;
-		background-size: cover;
-		position:absolute;
-		z-index: 1;
-		background-attachment: scroll;
-	}}
-
-@media screen and (min-width: 1024px){
-	.fullscreenam{
-		background:url(../../img/aboutmehd.jpg)no-repeat center center fixed;
-		width: 100%;
-		height: 100vh;
-		top: 0;
-		left: 0;
-		background-size: cover;
-		position:absolute;
-		z-index: 1;
-		background-attachment: scroll;
-	}}
-
-.fullscreen_work{
-	background-color:$marine;
-	height: 480px;
-	padding-bottom: 100%;
-	position:absolute;
-	z-index: 1;
-	
+.index {
+	background: url(../../img/fondothisisme.jpg) center center no-repeat; 
+	background-size: cover; 
+	height: 100vh; 
+	color: #fff;
 }
-@media screen and (min-width: 768px){
-	.fullscreen_work{
-		background-color:$marine;
-		width: 100%;
-		height: 100vh;
-		top: 0;
-		left: 0;
-		position:absolute;
-		z-index: 1;
-		
+ .about {
+	background: url(../../img/aboutmehdm.jpg) center center no-repeat; 
+	background-size: cover; 
+	height: 100vh; 
+	color: #fff;
+}
+.services {
+	background: url(../../img/servicesmv.jpg) center center no-repeat; 
+	background-size: cover; 
+	height: 100vh; 
+	color: #fff;
+
+}
+.workone {
+	background: url(../../img/work1dehd.jpg) center center no-repeat; 
+	background-size: cover; 
+	height: 100vh; 
+	color: #fff;
+
+}
+.contact {
+	background: url(../../img/contact.jpg) center center no-repeat; 
+	background-size: cover; 
+	height: 100vh; 
+	color: #fff;
+}
+
+@media (min-width: 768px) {
+	.index{
+		background: url(../../img/tablethd.jpg) center center no-repeat; 
+		background-size: cover; 
+
+
+	}
+.about {
+		background: url(../../img/aboutmehdt.png) center center no-repeat; 
+		background-size: cover; 
+	
+	}
+.services {
+		background: url(../../img/servicestb.jgp) center center no-repeat; 
+		background-size: cover; 
+
+	
+
+	
 	}}
 
-@media screen and (min-width: 1024px){
-	.fullscreen_work{
-		background-color:$marine;
-		height: 100vh;
-		
-		top: 0;
-		left: 0;
-		position:absolute;
-		z-index: 1;
-		
-	}}
+@media (min-width: 1024px) {
 
+	.index{
+		background: url(../../img/fondofullhd.jpg) center center no-repeat; 
+		background-size: cover; 
 
-
-
-
-
+	overflow: hidden;
+}
+.about {
+		background: url(../../img/aboutmehd.jpg) center center no-repeat; 
+		background-size: cover; 
+	
+	overflow: hidden;
+}
+.services {
+		background: url(../../img/serviceshd.jpg) center center no-repeat; 
+		background-size: cover; 
+	
+	overflow: hidden;
+}}
 
 
 
